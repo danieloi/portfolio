@@ -37,7 +37,7 @@ export const Contact = () => {
         </Col>
         <Col xs={6} sm={3} className="social_icons social">
           <a
-            href="https://www.linkedin.com/in/olumayowa-daniel-84b3b082"
+            href="https://www.linkedin.com/in/mayowa-daniel/"
             target="_blank"
             rel="noopener noreferrer"
           >

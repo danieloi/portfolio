@@ -10,28 +10,27 @@ export const Transcribe = () => (
     <Grid>
       <Col xs={12} sm={3}>
         <br />
-        UI concept, Customer View and Protected Admin View for{" "}
+        UI, Frontend and Backend for
+        <br />
         <a
-          href="http://spikandspan.net"
+          href="https://transcribe.ng"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Spik & Span Abuja <span className="glyphicon glyphicon-new-window" />
+          Transcribe.ng <span className="glyphicon glyphicon-new-window" />
         </a>
         <br />
         <br />
-        Made with React JS and Firebase
+        Made with React and Serverless Framework (AWS)
         <br />
         <br />
         Payments processing with Paystack API
         <br />
         <br />
-        Hosting with AWS
-        <br />
       </Col>
-      <Col xs={12} sm={9}>
+      <Col xs={12} sm={3}>
         <ImageWLoader
-          src="https://s3.amazonaws.com/mayowa.me/img/spiknspan+updated.png"
+          src="https://s3.amazonaws.com/mayowa.me/img/transcribe-screen.jpg"
           className="project_images"
           noBackdrop={true}
         />

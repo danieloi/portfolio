@@ -10,28 +10,37 @@ export const Olog = () => (
     <Grid>
       <Col xs={12} sm={3}>
         <br />
-        UI concept, Customer View and Protected Admin View for{" "}
-        <a
-          href="http://spikandspan.net"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Spik & Span Abuja <span className="glyphicon glyphicon-new-window" />
+        UI, Frontend and Backend for
+        <br />
+        <a href="https://olog.me" target="_blank" rel="noopener noreferrer">
+          olog.me <span className="glyphicon glyphicon-new-window" />
         </a>
         <br />
         <br />
-        Made with React JS and Firebase
+        Made with React and Serverless Framework(AWS)
         <br />
         <br />
-        Payments processing with Paystack API
-        <br />
-        <br />
-        Hosting with AWS
+        Featured{" "}
+        <a
+          href="https://serverless-stack.com/showcase.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          here
+        </a>{" "}
+        and{" "}
+        <a
+          href="https://www.producthunt.com/posts/olog-me"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          here
+        </a>
         <br />
       </Col>
-      <Col xs={12} sm={9}>
+      <Col xs={12} sm={3}>
         <ImageWLoader
-          src="https://s3.amazonaws.com/mayowa.me/img/spiknspan+updated.png"
+          src="https://s3.amazonaws.com/mayowa.me/img/olog-screen.jpg"
           className="project_images"
           noBackdrop={true}
         />

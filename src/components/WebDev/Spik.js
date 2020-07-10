@@ -20,7 +20,7 @@ export const Spik = () => (
         </a>
         <br />
         <br />
-        Made with React JS and Firebase
+        Made with React and Firebase
         <br />
         <br />
         Payments processing with Paystack API
@@ -29,7 +29,7 @@ export const Spik = () => (
         Hosting with AWS
         <br />
       </Col>
-      <Col xs={12} sm={9}>
+      <Col xs={12} sm={3}>
         <ImageWLoader
           src="https://s3.amazonaws.com/mayowa.me/img/spiknspan+updated.png"
           className="project_images"

@@ -31,8 +31,8 @@ export const Resume = () => {
             - 2018 Nigerian Presidential Elections Twitter Sentiment Analysis
             Project
             <br />
-            - Digitized Regularly-used forms and saved increading man-hours for
-            Construction Company
+            - Digitized Regularly-used forms and saved ever-increasing man-hours
+            for Construction Company
             <br />- Banner Generator Tool for Nigerian Non-profit Shift Nigeria
           </p>
         </Col>
@@ -114,7 +114,7 @@ export const Resume = () => {
         <Col md={12} className="cv_divider" />
       </Grid>
       <Col md={3}>
-        <p className="cv_categories">COMMUNITY INVOLVEMENT & AWARDS</p>
+        <p className="cv_categories">COLLEGE COMMUNITY INVOLVEMENT & AWARDS</p>
       </Col>
       <Col md={9} className="cv_item">
         <Col md={9}>
