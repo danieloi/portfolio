@@ -19,7 +19,7 @@ export const NavBar = () => (
       <Navbar.Collapse>
         <Nav pullRight>
           <LinkContainer exact={true} to="/">
-            <NavItem eventKey={1}>INFO</NavItem>
+            <NavItem eventKey={1}>HEY</NavItem>
           </LinkContainer>
           <LinkContainer exact={true} to="/projects">
             <NavItem eventKey={2}>PROJECTS</NavItem>
