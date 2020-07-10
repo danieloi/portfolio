@@ -12,6 +12,8 @@ import { Misc } from "./Visualization/Misc";
 import { Competition } from "./Visualization/Competition";
 import { Tammi } from "./WebDev/Tammi";
 import { Spik } from "./WebDev/Spik";
+import { Olog } from "./WebDev/Olog";
+import { Transcribe } from "./WebDev/Transcribe";
 
 export const Projects = () => (
   <Switch>
@@ -27,5 +29,7 @@ export const Projects = () => (
     <Route exact path="/projects/web_development" component={WebDev} />
     <Route path="/projects/web_development/tammi" component={Tammi} />
     <Route path="/projects/web_development/spiknspan" component={Spik} />
+    <Route path="/projects/web_development/olog" component={Olog} />
+    <Route path="/projects/web_development/transcribe" component={Transcribe} />
   </Switch>
 );
