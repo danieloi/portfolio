@@ -7,6 +7,98 @@ export const Resume = () => {
   return (
     <Grid>
       <Col md={3}>
+        <p className="cv_categories">WORK EXPERIENCE</p>
+      </Col>
+      <Col md={9} className="cv_item">
+        <Col md={10}>
+          <p className="cv_header">Software Engineer</p>
+          <p className="cv_subheader">olog.me, Remote</p>
+          <p className="cv_heading_details">Nov. 2019 - present</p>
+        </Col>
+        <Col md={10}>
+          <p className="cv_description">
+            - Designed, Built, Deployed and Managed User-facing Frontend &
+            Backend
+          </p>
+        </Col>
+        <Col md={10}>
+          <p className="cv_header">Developer</p>
+          <p className="cv_subheader">Freelance, Remote</p>
+          <p className="cv_heading_details">2018 - present</p>
+        </Col>
+        <Col md={10}>
+          <p className="cv_description">
+            - 2018 Nigerian Presidential Elections Twitter Sentiment Analysis
+            Project
+            <br />
+            - Digitized Regularly-used forms and saved increading man-hours for
+            Construction Company
+            <br />- Banner Generator Tool for Nigerian Non-profit Shift Nigeria
+          </p>
+        </Col>
+        <Col md={10}>
+          <p className="cv_header">Software Engineer</p>
+          <p className="cv_subheader">Thrive Agric, Abuja NG/Remote</p>
+          <p className="cv_heading_details">Dec. 2018 - Jul. 2019</p>
+        </Col>
+        <Col md={10}>
+          <p className="cv_description">
+            - Designed, Built, & Deployed Administrative Dashboard
+            <br />
+            - Collaborated on User-facing Frontend
+            <br />- Designed and Built Analytics UI & API endpoints
+          </p>
+        </Col>
+        <Col md={10}>
+          <p className="cv_header">Software Developer</p>
+          <p className="cv_subheader">Transcribe.ng, Remote</p>
+          <p className="cv_heading_details">Aug. 2018 - Dec. 2019</p>
+        </Col>
+        <Col md={10}>
+          <p className="cv_description">
+            - Designed, Built, Deployed and Managed User-facing Frontend &
+            Backend
+            <br />- Designed, Built, Deployed and Managed Admin Dashboard
+          </p>
+        </Col>
+        <Col md={10}>
+          <p className="cv_header">Full Stack Developer</p>
+          <p className="cv_subheader">Spik & Span(spikandspan.net), Remote</p>
+          <p className="cv_heading_details">Apr. 2018 - July. 2019</p>
+        </Col>
+        <Col md={10}>
+          <p className="cv_description">
+            - Designed, Built, Deployed and Managed User-facing Frontend &
+            Backend
+            <br />- Designed, Built, Deployed and Managed Admin Dashboard
+          </p>
+        </Col>
+      </Col>
+      <Grid className="cv_divider_outer">
+        <Col md={12} className="cv_divider" />
+      </Grid>
+      <Col md={3}>
+        <p className="cv_categories">SKILLS</p>
+      </Col>
+      <Col md={9} className="cv_item">
+        <Col md={10}>
+          <p className="cv_description">
+            JavaScript (React, Redux, p5, Node, Vanilla), HTML & CSS, Python,
+            AWS Serverless
+          </p>
+          <p className="cv_description">Photoshop, Illustrator</p>
+          <p className="cv_description">
+            3ds Max, Blender, SketchUp, AutoCAD, Revit
+          </p>
+          <p className="cv_description">
+            Microsoft Word, Excel, PowerPoint, Project
+          </p>
+        </Col>
+      </Col>
+      <Grid className="cv_divider_outer">
+        <Col md={12} className="cv_divider" />
+      </Grid>
+      <Col md={3}>
         <p className="cv_categories">EDUCATION</p>
       </Col>
       <Col md={9} className="cv_item">
@@ -16,92 +108,6 @@ export const Resume = () => {
           <p className="cv_subheader">Cincinnati, OH</p>
           <p className="cv_subheader">USA</p>
           <p className="cv_subheader">GPA: 3.7/4.0</p>
-        </Col>
-      </Col>
-      <Grid className="cv_divider_outer">
-        <Col md={12} className="cv_divider" />
-      </Grid>
-      <Col md={3}>
-        <p className="cv_categories">WORK EXPERIENCE</p>
-      </Col>
-      <Col md={9} className="cv_item">
-        <Col md={10}>
-          <p className="cv_header">Design Co-op</p>
-          <p className="cv_subheader">K4 Architecture, Cincinnati OH</p>
-          <p className="cv_heading_details">2016 (2 Semesters )</p>
-        </Col>
-        <Col md={10}>
-          <p className="cv_description">
-            - Created 3-D visualizations for various winning project bids
-            <br />
-            - Created 2-D construction drawings
-            <br />
-            - Executed construction administration tasks
-            <br />- Facilitated co-ordination with other trades
-          </p>
-        </Col>
-        <Col md={10}>
-          <p className="cv_header">Analyst Co-op</p>
-          <p className="cv_subheader">Landrum & Brown, Cincinnati OH</p>
-          <p className="cv_heading_details">2015 (1 Semester))</p>
-        </Col>
-        <Col md={10}>
-          <p className="cv_description">
-            - Created company standards for representing walking distances in
-            airport terminals
-            <br />
-            - Created 3-D animations for flight schedule presentations
-            <br />
-            - Revised layouts of terminals
-            <br />
-            - Updated airport layout plans to reflect past and future
-            developments
-            <br />
-            - Assembled company presentations for company executives
-            <br />- Performed background research work for project bids
-          </p>
-        </Col>
-        <Col md={10}>
-          <p className="cv_header">Design & Acquisition Co-op</p>
-          <p className="cv_subheader">
-            Habitat for Humanity of Greater Cincinnati, Cincinnati OH
-          </p>
-          <p className="cv_heading_details">2014 (2 Semesters)</p>
-        </Col>
-        <Col md={10}>
-          <p className="cv_description">
-            - Created presentations for city-sponsored projects
-            <br />
-            - Greatly increased personal proficiency in drafting full floor plan
-            sets for new and existing buildings
-            <br />
-            - Surveyed existing conditions and recreated situations in CAD
-            <br />
-            - Obtained building permits for new-builds
-            <br />- Perfomed site supervision tasks alongside Construction
-            Managers
-          </p>
-        </Col>
-      </Col>
-      <Grid className="cv_divider_outer">
-        <Col md={12} className="cv_divider" />
-      </Grid>
-      <Col md={3}>
-        <p className="cv_categories">TECHNICAL SKILLS</p>
-      </Col>
-      <Col md={9} className="cv_item">
-        <Col md={10}>
-          <p className="cv_description">
-            C++, C#, Matlab, HTML & CSS, JavaScript (Vanilla, jQuery, React,
-            Express, Node), Python
-          </p>
-          <p className="cv_description">Photoshop, Illustrator</p>
-          <p className="cv_description">
-            3ds Max, Blender, SketchUp, AutoCAD, Revit
-          </p>
-          <p className="cv_description">
-            Microsoft Word, Excel, PowerPoint, Project
-          </p>
         </Col>
       </Col>
       <Grid className="cv_divider_outer">

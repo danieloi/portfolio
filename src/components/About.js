@@ -59,11 +59,7 @@ export const About = () => (
         </a>
       </p>
       <br />
-      <p className="about">
-        Mayowa D.
-        <br />
-        "...we have the mind of Christ"
-      </p>
+      <p className="about">Mayowa D.</p>
     </div>
   </div>
 );

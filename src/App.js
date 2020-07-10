@@ -11,6 +11,7 @@ import faGithubSquare from "@fortawesome/fontawesome-free-brands/faGithubSquare"
 import faEnvelopeSquare from "@fortawesome/fontawesome-free-solid/faEnvelopeSquare";
 import faNewspaper from "@fortawesome/fontawesome-free-regular/faNewspaper";
 import faEnvelope from "@fortawesome/fontawesome-free-regular/faEnvelope";
+import "./App.css";
 
 fontawesome.library.add(
   faLinkedin,
@@ -20,8 +21,6 @@ fontawesome.library.add(
   faNewspaper,
   faEnvelope
 );
-
-import "./App.css";
 
 function App() {
   return (

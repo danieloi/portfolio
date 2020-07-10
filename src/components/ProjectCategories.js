@@ -8,6 +8,16 @@ import Glyphicon from "react-bootstrap/lib/Glyphicon";
 export const ProjectCategories = () => (
   <Grid className="text-center content">
     <Col xs={12} sm={4}>
+      <LinkContainer to={`/projects/web_development`}>
+        <Button bsSize="large" className="project_type btn-categories">
+          <div className="square_category">
+            <Glyphicon glyph="globe" className="logo" />
+            <h5 className="category_text">WEB DEVELOPMENT</h5>
+          </div>
+        </Button>
+      </LinkContainer>
+    </Col>
+    <Col xs={12} sm={4}>
       <LinkContainer to={`/projects/creative_coding`}>
         <Button bsSize="large" className="project_type btn-categories">
           <div className="square_category">
@@ -23,16 +33,6 @@ export const ProjectCategories = () => (
           <div className="square_category">
             <Glyphicon glyph="pencil" className="logo" />
             <h5 className="category_text">VISUALIZATION</h5>
-          </div>
-        </Button>
-      </LinkContainer>
-    </Col>
-    <Col xs={12} sm={4}>
-      <LinkContainer to={`/projects/web_development`}>
-        <Button bsSize="large" className="project_type btn-categories">
-          <div className="square_category">
-            <Glyphicon glyph="globe" className="logo" />
-            <h5 className="category_text">WEB DEVELOPMENT</h5>
           </div>
         </Button>
       </LinkContainer>

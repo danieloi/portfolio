@@ -1,9 +1,9 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import CreativeCoding from "./CreativeCoding";
-import { Steering } from "./Creative Coding/Steering";
-import { Clock } from "./Creative Coding/Clock";
-import { Sponge } from "./Creative Coding/Sponge";
+import { Steering } from "./CreativeCoding/Steering";
+import { Clock } from "./CreativeCoding/Clock";
+import { Sponge } from "./CreativeCoding/Sponge";
 import { ProjectCategories } from "./ProjectCategories";
 import { WebDev } from "./WebDev";
 import { Visualization } from "./Visualization";

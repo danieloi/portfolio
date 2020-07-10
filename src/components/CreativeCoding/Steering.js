@@ -8,7 +8,7 @@ export const Steering = () => (
   <Grid>
     {/* <Row> */}
     <br />
-    <Col xs={12} sm={6}>
+    <Col sm={6}>
       <iframe
         title="Steering"
         src="https://danieloi.github.io/creative_coding_steering_behaviors/"

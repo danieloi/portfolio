@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export const Sponge = () => (
   <Grid>
     <br />
-    <Col xs={12} sm={6}>
+    <Col sm={6}>
       <iframe
         title="Sponge"
         src="https://danieloi.github.io/creative_coding_sponge/"
