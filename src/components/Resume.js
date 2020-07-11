@@ -28,12 +28,12 @@ export const Resume = () => {
         </Col>
         <Col md={10}>
           <p className="cv_description">
-            - 2018 Nigerian Presidential Elections Twitter Sentiment Analysis
-            Project
+            - Nigerian Presidential Elections Twitter Sentiment Analysis Poll
             <br />
-            - Digitized Regularly-used forms and saved ever-increasing man-hours
-            for Construction Company
-            <br />- Banner Generator Tool for Nigerian Non-profit Shift Nigeria
+            - Digitized forms and cut handling time by 90% for Construction
+            Company
+            <br />- Built Web-based Automatic Brand Overlay tool for Non-profit
+            Shift Nigeria
           </p>
         </Col>
         <Col md={10}>
@@ -43,28 +43,31 @@ export const Resume = () => {
         </Col>
         <Col md={10}>
           <p className="cv_description">
-            - Designed, Built, & Deployed Administrative Dashboard
+            - Designed, Built & Deployed Administrative Dashboard
             <br />
-            - Collaborated on User-facing Frontend
-            <br />- Designed and Built Analytics UI & API endpoints
+            - Built user-facing pixel-perfect views from mocks with React
+            <br />
+            - Built endpoints and views for reports and analytics internal tool
+            <br />- Created and maintained API endpoints for new/existing
+            features
           </p>
         </Col>
         <Col md={10}>
           <p className="cv_header">Software Developer</p>
           <p className="cv_subheader">Transcribe.ng, Remote</p>
-          <p className="cv_heading_details">Aug. 2018 - Dec. 2019</p>
+          <p className="cv_heading_details">Aug. 2018 - Dec. 2018</p>
         </Col>
         <Col md={10}>
           <p className="cv_description">
-            - Designed, Built, Deployed and Managed User-facing Frontend &
-            Backend
-            <br />- Designed, Built, Deployed and Managed Admin Dashboard
+            - Designed, Built, Deployed & Managed User-facing Frontend & Backend
+            <br />- Designed, Built, Deployed & Managed Admin Dashboard and
+            Endpoints
           </p>
         </Col>
         <Col md={10}>
           <p className="cv_header">Full Stack Developer</p>
-          <p className="cv_subheader">Spik & Span(spikandspan.net), Remote</p>
-          <p className="cv_heading_details">Apr. 2018 - July. 2019</p>
+          <p className="cv_subheader">Spik & Span (spikandspan.net), Remote</p>
+          <p className="cv_heading_details">Apr. 2018 - July. 2018</p>
         </Col>
         <Col md={10}>
           <p className="cv_description">
@@ -83,8 +86,8 @@ export const Resume = () => {
       <Col md={9} className="cv_item">
         <Col md={10}>
           <p className="cv_description">
-            JavaScript (React, Redux, p5, Node, Vanilla), HTML & CSS, Python,
-            AWS Serverless
+            AWS (w/ Serverless Framework), JavaScript (React, Redux, p5, Node,
+            Vanilla), HTML & CSS, Python, C++ (Data Structures in CS minor)
           </p>
           <p className="cv_description">Photoshop, Illustrator</p>
           <p className="cv_description">
@@ -159,10 +162,6 @@ export const Resume = () => {
               <tr>
                 <td>Member</td>
                 <td>University Honors Program</td>
-              </tr>
-              <tr>
-                <td>Member</td>
-                <td>Tau Beta Pi Engineering Honor Society</td>
               </tr>
             </tbody>
           </Table>
